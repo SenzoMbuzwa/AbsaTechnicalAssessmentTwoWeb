@@ -13,6 +13,7 @@ namespace AbsaTechAssessment.StepDefinitions
     public class UsersStepDefinitions
     {
         UsersPage usersPage = new UsersPage();
+
         string sheetName = "Users";
 
         [Given(@"that you are on the users page on the (.*) browser")]
