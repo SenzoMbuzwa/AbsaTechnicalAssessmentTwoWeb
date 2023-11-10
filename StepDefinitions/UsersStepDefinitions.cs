@@ -12,13 +12,13 @@ namespace AbsaTechAssessment.StepDefinitions
     [Binding]
     public class UsersStepDefinitions
     {
-        UsersPage up = new UsersPage();
+        UsersPage usersPage = new UsersPage();
         string sheetName = "Users";
 
         [Given(@"that you are on the users page on the (.*) browser")]
         public void GivenThatYouAreOnTheUsersPageOnThe(string browser)
         {
-            up.NavigateToTestSite(browser);
+            usersPage.NavigateToTestSite(browser);
         }
 
         [When(@"you add new users and verify that the users has been successfully added to the list")]
@@ -43,9 +43,9 @@ namespace AbsaTechAssessment.StepDefinitions
                     break;
                 }
 
-                up.AddUser(firstname, lastname, username, password, customer, role, email, cell);
+                usersPage.AddUser(firstname, lastname, username, password, customer, role, email, cell);
 
-                up.ValidateUserInTable(firstname, lastname, username, customer, role, email, cell);
+                usersPage.ValidateUserInTable(firstname, lastname, username, customer, role, email, cell);
 
                 // Increment the row counter
                 currentRow++;
