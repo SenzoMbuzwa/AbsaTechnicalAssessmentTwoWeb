@@ -5,8 +5,6 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsaTechAssessmentTwo", "AbsaTechAssessmentTwo.csproj", "{31631499-F5DB-4E06-99A6-728AAEE9BC40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsaTechAssessmentOne", "..\AbsaTechAssessmentOne\AbsaTechAssessmentOne.csproj", "{DD496224-4047-4BF9-8F23-41820B2A78F9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{31631499-F5DB-4E06-99A6-728AAEE9BC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31631499-F5DB-4E06-99A6-728AAEE9BC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31631499-F5DB-4E06-99A6-728AAEE9BC40}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD496224-4047-4BF9-8F23-41820B2A78F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD496224-4047-4BF9-8F23-41820B2A78F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD496224-4047-4BF9-8F23-41820B2A78F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD496224-4047-4BF9-8F23-41820B2A78F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
